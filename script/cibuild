@@ -3,6 +3,11 @@ var cp = require('./utils/child-process-wrapper.js');
 var fs = require('fs');
 var path = require('path');
 
+console.log(process.env.Temp);
+console.log(process.env.TMP);
+console.log(process.env.TEMP);
+console.log(require('os').tmpdir());
+
 process.chdir(path.dirname(__dirname));
 
 var homeDir = process.platform == 'win32' ? process.env.USERPROFILE : process.env.HOME;
