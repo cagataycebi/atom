@@ -207,7 +207,6 @@ module.exports = (grunt) ->
       loadingGif: path.resolve(__dirname, '..', 'resources', 'win', 'loading.gif')
       iconUrl: 'https://raw.githubusercontent.com/atom/atom/master/resources/win/atom.ico'
       setupIcon: path.resolve(__dirname, '..', 'resources', 'win', 'atom.ico')
-      remoteReleases: 'https://atom.io/api/updates'
 
     shell:
       'kill-atom':
